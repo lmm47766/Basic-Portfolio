@@ -1,0 +1,193 @@
+/* Nav Bar CSS*/
+
+body {
+	background-color: #f2f7ff;
+	margin: 0;
+	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	box-sizing: border-box;
+	border: 0;
+	padding: 0;
+	position: static;
+
+}
+
+
+
+h1{
+
+	background:#4aaaa5;
+	color: white;
+	margin: 10px 0 0 0;
+	padding: 20px;
+	float: left;
+	height: 25px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav {
+	padding: 0px;
+	border: 0;
+	height: 75px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.nav {
+	float: right;
+	padding:15px 0px 0 0;
+	margin: 10px 0 0 0;
+	border: 0;
+	font-size: 18px;
+	color: #cccccc;
+	font-weight: normal;
+}
+
+.navBar {
+	background-color: #ffffff;
+	border: 0px;
+	border-bottom: 2px;
+	border-style: solid;
+    border-color: #cccccc;
+}
+
+.navHeader{
+	padding: 7px;
+	color: #cccccc;
+	font-weight: normal;
+
+}
+
+
+/* Main Section CSS*/
+
+.entireContent{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	overflow: auto;
+
+}
+
+.mainSection{
+	background: #ffffff;
+	width: 650px;
+	height: 600px;
+	box-sizing: border-box;
+	float: left;
+	padding: 25px;
+	border: 1px;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+#self{
+	width: 300px;
+	height: 250px;
+	float: left;
+	/*margin-right: 15px;*/
+	padding-right: 25px;
+
+}
+
+#bio{
+	font-size: 20px;
+	color: gray;
+	font-weight: normal;
+	line-height: 33px;
+	margin-top: 0;
+
+
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h3{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+
+/* Side Bar CSS */
+
+.sideBar {
+	background-color: #ffffff;
+	width: 270px;
+	height: 175px;
+	box-sizing: border-box;
+	float: right;
+	padding: 15px;
+	border: 1px;
+	border-color: #dddddd;
+	border-style: solid;
+
+}
+
+#contact{
+	color: #4aaaa5;
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+}
+
+#gitHub{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: left;
+}
+
+#linkedIn{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: left;
+
+}
+
+#stackOverflow{
+	box-sizing: border-box;
+	height: 70px;
+	width: 33.33333%;
+	margin-top: 15px;
+	float: right;
+	border-top:5px;
+	padding: 3.5px;
+}
+
+
+/* Footer CSS*/
+footer {
+	color: lightgray;
+	clear: both;
+	background-color: #666666;
+	height: 35px;
+	text-align: center;
+/*	box-sizing: border-box;*/
+	padding: 17px;
+	font-size: 12px;
+	border: 0;
+	margin:0;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-top: 12px solid #4aaaa5;
+
+
+	
+}
+
+
+
+
