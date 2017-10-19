@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>Luis HW1</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 	</head>
@@ -19,9 +19,10 @@
 
 				<!-- About, Portfolio, Header section -->
 				<section class="nav">
-					<a class="navHeader" href="index.html">About</a> |
-					<a class="navHeader" href="portfolio.html">Portfolio</a> |
-					<a class="navHeader" href="contact.html">Contact</a>
+					<a class="navHeader" href="index.html" STYLE="text-decoration: none">About</a> |
+					<a class="navHeader" href="portfolio.html" STYLE="text-decoration: none">Portfolio</a> |
+					<a class="navHeader" href="contact.html" STYLE="text-decoration: none">Contact</a>
+
 				</section>
 			</nav>
 		</div>
@@ -37,15 +38,22 @@
 
 				<hr color="#cccccc">
 				
-				<!-- Self Picture -->
-				<!-- <img id="self" src="assets/images/me.jpg"> -->
+					<form action="/action_page.php" id="usrform">
+					 Name<br>
+					 <input id="name" type="text" name="Name" placeholder="Luis Mendoza"><br><br>
+					 
+					 Email<br>
+					 <input id="email" type="email" name="Email" placeholder="Luis.Mendoza@gmail.com"><br><br>
+						
+					Message<br>	
+					 <!-- <input id="message" type="email" name="Message" value="placeholder" rows="100" columns="50" > -->
+					 <textarea id="message" rows="15" cols="95" name="comment" form="usrform"></textarea>
 
-				<!-- Paragraph about me -->
-				<!-- <p id="bio"> Hello everyone, this is my first webpage. I am currently attending the UCLA coding bootcamp. I am very excited to be here and am hoping that once I am done I can swtich careers and become a developer.  -->
-				<!-- <br> -->
+					<br>
 
-				<!-- A little about myself, I enjoy hanging out with my friends and family. I recently started traveling with my girlfirend. We just came back from a 5 week vacation where we went to 10 different countries in Western Europe. What I like to do the most is playing soccer. I play in 4 teams but have put it off while I do the bootcamp. -->
-				<!-- </p> -->
+					 <input id="button" type="submit" >
+					
+					</form>
 
 			</section>
 			
