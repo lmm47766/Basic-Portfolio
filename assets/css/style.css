@@ -226,6 +226,12 @@ form{
 	margin-top: 15px;
 	color:white;
 	font-size: 16px;
+	/*text-decoration: none;*/
+}
+
+#btn{
+	text-decoration: none;
+	color: white;
 }
 
 
